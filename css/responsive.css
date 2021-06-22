@@ -1,0 +1,69 @@
+@media screen and (max-width: 375px) {
+.container {
+
+    flex-direction: column;
+}
+
+.card-1 {
+	/* background-color: hsl(31, 77%, 52%); */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.card-3 {
+    /* background-color: hsl(179, 100%, 13%); */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+}
+p {
+	margin-top: 10%;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 12px;
+	line-height: 20px;
+}   
+.car {
+	padding: 1.5rem 2.5rem;
+	width: 17rem;
+	height: 22rem;
+}
+.button {
+    padding-top: 2rem;
+    
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    padding: 0.5rem 1.2rem;
+    background: transparent;
+    color: #fff;
+}
+
+.btn[name="one"]:hover{
+    background: #fff;
+    color: hsl(31, 77%, 52%);
+}
+.btn[name="two"]:hover{
+    background: #fff;
+    color: hsl(184, 100%, 22%);
+}
+.btn[name="three"]:hover{
+    background: #fff;
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -22%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}

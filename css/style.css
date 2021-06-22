@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body {
+    font-size: 15px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	/* align-content: center; */
+	align-items: center;
+	/* width: 104vh; */
+	margin: 6rem auto;
+	/* border: 2px solid; */
+	text-align: left;
+	color: #fff;
+}
+
+.card-1 {
+	background-color: hsl(31, 77%, 52%);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.card-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+	margin-top: 15%;
+}
+
+p {
+	margin-top: 15%;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 12px;
+	line-height: 20px;
+}
+.car {
+	padding: 1.5rem 2.5rem;
+	width: 16rem;
+	height: 26rem;
+}
+
+.button {
+    padding-top: 5rem;
+    
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    padding: 0.5rem 1.2rem;
+    background: transparent;
+    color: #fff;
+}
+
+.btn[name="one"]:hover{
+    background: #fff;
+    color: hsl(31, 77%, 52%);
+}
+.btn[name="two"]:hover{
+    background: #fff;
+    color: hsl(184, 100%, 22%);
+}
+.btn[name="three"]:hover{
+    background: #fff;
+    color: hsl(179, 100%, 13%);
+}
+
